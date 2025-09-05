@@ -9,7 +9,7 @@ import altair as alt
 
 
 # === CONFIG ===
-API_KEY = ' '
+API_KEY = 'CKK37U-FZVFS3-XL7YRW-5ILO'
 MY_LAT = 19.85858
 MY_LON = 25.20202
 ALT = 10
@@ -226,5 +226,6 @@ if st.session_state.trail:
             st.warning("It will be visible around 5 days.")
 else:
     st.info("Click '🔁 Fetch Latest ISS Position' to start tracking.")
+
 
 
